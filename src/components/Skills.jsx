@@ -6,6 +6,7 @@ import skill1 from "../assests/img/skill1.svg";
 import skill2 from "../assests/img/skill2.svg";
 import skill3 from "../assests/img/skill3.svg";
 
+
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {

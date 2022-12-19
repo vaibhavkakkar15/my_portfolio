@@ -55,7 +55,7 @@ export const Contact = () => {
           {/* col that contain form */}
           <Col md={6}>
             <h2>Get In Touch</h2>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} data-netlify="true">
               <Row>
                 <Col sm={6} className="px-1">
                   <input

@@ -71,7 +71,8 @@ export const Banner = () => {
                 console.log("connect");
               }}
             >
-              Let's Connect <ArrowRightCircle size={25} />
+              <a href="https://drive.google.com/file/d/1-FNlgX2BIkAiiEzIQQPHXq4vgm3ZMHou/view">Download Resume</a>
+              <ArrowRightCircle size={25} />
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>

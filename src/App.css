@@ -68,7 +68,7 @@ nav.navbar a.navbar-brand {
   width: 14%;
   color: #fff;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 700;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -250,6 +250,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+}
+
+.banner button a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner button a:hover{
+  color: #121212;
 }
 .banner button svg {
   font-size: 25px;
@@ -461,6 +470,37 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+.tab2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color:#ffffff;
+}
+
+.links {
+  border: 1px solid #fff;
+  display: inline-block;
+  margin: 20px auto;
+  width: 30%;
+  border-radius: 50px;
+  height: 50px;
+  padding:10px 15px;
+  overflow:hidden;
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+}
+.links a {
+  text-decoration: none;
+}
+
+
+.links a h5 {
+  color: #fff;
+}
+
+
+.links a h5:hover{
+  color:black;
+}
 /* //contact */
 
 .contact {
@@ -621,5 +661,3 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   justify-content: center;
 }
-
-
